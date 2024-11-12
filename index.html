@@ -8,84 +8,97 @@
     <script src="https://kit.fontawesome.com/d4a890d065.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="card">
-        <div class="card-header">
-            <h1>Sign Up</h1>
-            <div class="days">
-                <div class="sun">
-                    <a href="#" onclick="toggleLightMode()">
-                        <i class="fa-regular fa-sun"></i>
-                    </a>
+    <div class="container" id="sun">
+        <div class="heading">
+            <img src="sun.png" width="200">
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="card-header">
+                    <h1>Sign Up</h1>
+                    <div class="days">
+                        <div class="sun">
+                            <a href="#" onclick="toggleLightMode()">
+                                <i class="fa-regular fa-sun"></i>
+                            </a>
+                        </div>
+                        <div class="moon">
+                            <a href="#" onclick="toggleDarkMode()">
+                                <i class="fa-solid fa-moon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="moon">
-                    <a href="#" onclick="toggleDarkMode()">
-                        <i class="fa-solid fa-moon"></i>
-                    </a>
+                <div class="card-body">
+                    <div class="input-style">
+                        <p>EMAIL</p>
+                        <input type="text" placeholder="testing@gmail.com" name="email">
+                    </div>
+                    <div class="input-style">
+                        <p>PASSWORD</p>
+                        <input type="password" placeholder="*******" name="password">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="rememberme">
+                    <input type="checkbox"> Remember me
+                </div>
+                <div class="card-button">
+                    <button class="btn">LOGIN</button>
+                </div>
+                <div class="card-footer">
+                    <p>Belum Punya akun? <a href="register.html">REGISTER</a></p>
                 </div>
             </div>
-        </div>
-        <div class="card-body">
-            <div class="input-style">
-                <p>EMAIL</p>
-                <input type="text" placeholder="testing@gmail.com" name="email">
-            </div>
-            <div class="input-style">
-                <p>PASSWORD</p>
-                <input type="password" placeholder="*******" name="password">
-            </div>
-        </div>
-        <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
-        </div>
-        <div class="rememberme">
-            <input type="checkbox"> Remember me
-        </div>
-        <div class="card-button">
-            <button class="btn">LOGIN</button>
-        </div>
-        <div class="card-footer">
-            <p>Belum Punya akun? <a href="register.html">REGISTER</a></p>
         </div>
     </div>
 
-
-    <div class="card-moon">
-        <div class="card-header-moon">
-            <h1>Sign Up</h1>
-            <div class="days">
-                <div class="sun">
-                    <a href="#" onclick="toggleLightMode()">
-                        <i class="fa-regular fa-sun"></i>
-                    </a>
+    <div class="container-moon" id="moon">
+        <div class="heading">
+            <img src="moon.png" width="200">
+        </div>
+        <div class="content">
+            <div class="card-moon">
+                <div class="card-header-moon">
+                    <h1>Sign Up</h1>
+                    <div class="days">
+                        <div class="sun">
+                            <a href="#" onclick="toggleLightMode()">
+                                <i class="fa-regular fa-sun"></i>
+                            </a>
+                        </div>
+                        <div class="moon">
+                            <a href="#" onclick="toggleDarkMode()">
+                                <i class="fa-solid fa-moon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="moon">
-                    <a href="#" onclick="toggleDarkMode()">
-                        <i class="fa-solid fa-moon"></i>
-                    </a>
+                <div class="card-body-moon">
+                    <div class="input-style-moon">
+                        <p>EMAIL</p>
+                        <input type="text" placeholder="testing@gmail.com" name="email">
+                    </div>
+                    <div class="input-style-moon">
+                        <p>PASSWORD</p>
+                        <input type="password" placeholder="*******" name="password">
+                    </div>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="rememberme">
+                    <input type="checkbox"> Remember me
+                </div>
+                <div class="card-button-moon">
+                    <button class="btn">LOGIN</button>
+                </div>
+                <div class="card-footer">
+                    <p>Belum Punya akun? <a href="register.html">REGISTER</a></p>
                 </div>
             </div>
-        </div>
-        <div class="card-body-moon">
-            <div class="input-style-moon">
-                <p>EMAIL</p>
-                <input type="text" placeholder="testing@gmail.com" name="email">
-            </div>
-            <div class="input-style-moon">
-                <p>PASSWORD</p>
-                <input type="password" placeholder="*******" name="password">
-            </div>
-        </div>
-        <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
-        </div>
-        <div class="rememberme">
-            <input type="checkbox"> Remember me
-        </div>
-        <div class="card-button-moon">
-            <button class="btn">LOGIN</button>
-        </div>
-        <div class="card-footer">
-            <p>Belum Punya akun? <a href="register.html">REGISTER</a></p>
         </div>
     </div>
 </body>
