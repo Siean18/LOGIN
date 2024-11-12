@@ -52,7 +52,7 @@ a{
     font-weight: bold;
 }
 
-.btn{
+.card-button .btn{
     background-color: rgba(255, 255, 255, 0.726);
     color: rgb(55, 145, 255);
     font-weight: bold;
@@ -63,7 +63,7 @@ a{
     cursor: pointer;
 }
 
-.btn:hover{
+.card-button .btn:hover{
     background-color: rgb(85, 85, 244);
     color: white;
 }
@@ -100,6 +100,114 @@ a{
 
 .input-style input:active{
     border: none;
+}
+
+
+
+/* MODE MALAM */
+.card-moon{
+    background-color: rgba(150, 170, 255, 0.19);
+    box-shadow: 0 4px 10px rgba(186, 186, 186, 0.2);
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 200px;
+    display: none;
+}
+
+.input-style-moon p{
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.card-header-moon{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body-moon{
+    margin-top: 20px;
+    width: 500px;
+
+}
+
+.card-button-moon{
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-style-moon{
+    margin-top: 5px;
+}
+
+.input-style-moon input{
+    padding: 5px;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.348);
+    border-color: #00bcd4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-style-moon textarea{
+    padding: 5px;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.348);
+    border-color: #00bcd4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-style input:active{
+    border: none;
+}
+
+.card-button-moon .btn:hover{
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+
+.card-button-moon .btn{
+    background-color: rgba(121, 121, 121, 0.726);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* END MODE MALAM */
+
+.days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.days a{
+    color: white;
 }
 
 .forgot-password{
