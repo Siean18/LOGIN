@@ -272,4 +272,31 @@ a{
         width: 95%;
         padding: 8px;
     }
+
+    /* MOON */
+    .card-moon {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .card-header-moon h1 {
+        font-size: 20px;
+    }
+
+    .card-body-moon,
+    .card-button-moon {
+        width: 100%;
+    }
+
+    .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .input-style-moon input {
+        width: 95%;
+        padding: 8px;
+    }
+
+    /* END MOON */
 }
