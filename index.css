@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #59a9b3, #5970f2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background-color: rgba(150, 170, 255, 0.19);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.card-header{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body{
+    margin-top: 20px;
+    width: 500px;
+
+}
+
+.card-button{
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.input-style p{
+    color: rgba(255, 255, 255, 0.63);
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgb(55, 145, 255);
+    font-weight: bold;
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(85, 85, 244);
+    color: white;
+}
+
+.input-style{
+    margin-top: 5px;
+}
+
+.input-style input{
+    padding: 5px;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.348);
+    border-color: #00bcd4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-style input:active{
+    border: none;
+}
+
+.forgot-password{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.forgot-password a{
+    color: white;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+
+.card-footer a:hover{
+    color: rgb(225, 225, 225);
+}
+
+.card-footer p{ 
+    color: white;
+}
+
+.rememberme{
+    color: white;
+}
+
+
+
+@media (max-width: 480px) {
+    .card {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .card-header h1 {
+        font-size: 20px;
+    }
+
+    .card-body,
+    .card-button {
+        width: 100%;
+    }
+
+    .btn {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .input-style input {
+        width: 95%;
+        padding: 8px;
+    }
+}
