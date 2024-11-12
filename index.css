@@ -16,7 +16,7 @@ body{
     padding-left: 100px;
     width: 100%;
     max-width: 500px;
-    height: 400px;
+    height: auto;
     margin-top: 200px;
 }
 
@@ -73,6 +73,19 @@ a{
 }
 
 .input-style input{
+    padding: 5px;
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.348);
+    border-color: #00bcd4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-style textarea{
     padding: 5px;
     width: 98%;
     height: 30px;
